@@ -1,21 +1,9 @@
-Bitrix24 REST API PHP SDK
-================
-[![License](https://poser.pugx.org/mesilov/bitrix24-php-sdk/license.svg)](https://packagist.org/packages/mesilov/bitrix24-php-sdk) [![Total Downloads](https://poser.pugx.org/mesilov/bitrix24-php-sdk/downloads.svg)](https://packagist.org/packages/mesilov/bitrix24-php-sdk)
-[![Latest Stable Version](https://img.shields.io/packagist/v/mesilov/bitrix24-php-sdk.svg)](https://packagist.org/packages/mesilov/bitrix24-php-sdk)
-
-A powerful PHP library for the Bitrix24 REST API
+# Bitrix24 REST API
 
 ## Build status
-
-| CI\CD [status](https://github.com/mesilov/bitrix24-php-sdk/actions) on `master`                                                                                                                         | 
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| [![phpstan check](https://github.com/mesilov/bitrix24-php-sdk/actions/workflows/phpstan.yml/badge.svg)](https://github.com/mesilov/bitrix24-php-sdk/actions/workflows/phpstan.yml)                    | 
-| [![unit-tests status](https://github.com/mesilov/bitrix24-php-sdk/actions/workflows/phpunit.yml/badge.svg)](https://github.com/mesilov/bitrix24-php-sdk/actions/workflows/phpunit.yml)                | 
-| [![integration-tests status](https://github.com/mesilov/bitrix24-php-sdk/actions/workflows/integration.yml/badge.svg)](https://github.com/mesilov/bitrix24-php-sdk/actions/workflows/integration.yml) | 
-
 Integration tests run in GitHub actions with real Bitrix24 portal 
 
-## BITRIX24-PHP-SDK ✨FEATURES✨
+## Bitrix24 REST API ✨FEATURES✨
 
 Support both auth modes:
 
@@ -83,19 +71,12 @@ Low-level tools to devs:
     output: b24 response dto
     process: b24 entities, operate with immutable objects  
 ```
-## Sponsors
-
-Help bitrix24-php-sdk by [boosty.to/bitrix24-php-sdk](https://boosty.to/bitrix24-php-sdk)
 
 ## Requirements
 
 - php: >=8.2
 - ext-json: *
 - ext-curl: *
-
-## Installation
-
-Add `"mesilov/bitrix24-php-sdk": "2.x"` to `composer.json` of your application. Or clone repo to your project.
 
 ## Examples
 ### Work with webhook
@@ -142,7 +123,7 @@ composer phpunit-run-unit-test
 
 For run integration test you must:
 
-1. Create [new Bitrix24 portal](https://www.bitrix24.ru/create.php?p=255670) for development tests
+1. Create [new Bitrix24 portal](https://www.bitrix24.eu/create.php?p=255670) for development tests
 2. Go to left menu, click «Sitemap»
 3. Find menu item «Developer resources»
 4. Click on menu item «Other»
@@ -169,29 +150,3 @@ Call in command line
 ```shell
  composer phpstan-analyse
 ```
-
-## Submitting bugs and feature requests
-
-Bugs and feature request are tracked on [GitHub](https://github.com/mesilov/bitrix24-php-sdk/issues)
-
-## License
-
-bitrix24-php-sdk is licensed under the MIT License - see the `MIT-LICENSE.txt` file for details
-
-## Authors
-
-Maksim Mesilov - mesilov.maxim@gmail.com
-
-See also the list of [contributors](https://github.com/mesilov/bitrix24-php-sdk/graphs/contributors) which participated in this project.
-
-## Need custom Bitrix24 application?
-
-mesilov.maxim@gmail.com for private consultations or dedicated support
-
-## Documentation
-
-[Bitrix24 API documentation - Russian](http://dev.1c-bitrix.ru/rest_help/)
-
-[Bitrix24 API documentation - English](https://training.bitrix24.com/rest_help/)
-
-[Register new Bitrix24 account](https://www.bitrix24.ru/create.php?p=255670)
